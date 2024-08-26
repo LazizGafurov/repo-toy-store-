@@ -1,0 +1,132 @@
+//.............fonts......................
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../font/SFProDisplay-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../font/SFProDisplay-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../font/SFProDisplay-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../font/SFProDisplay-Semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+//........variables..................
+$sf-pro: "SF Pro Display";
+$grey: rgb(225, 225, 225);
+$bg-red: rgb(219, 45, 55);
+$main-black: #10142d;
+
+//........base styles................
+.container {
+  max-width: 1470px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+}
+@media (min-width: 800px) {
+  .border-r {
+    height: 100%;
+    border-right: 1px solid $grey;
+  }
+  .border-l {
+    height: 100%;
+    border-left: 1px solid $grey;
+  }
+}
+.mb-80 {
+  margin-bottom: 80px;
+  @media (max-width: 800px) {
+    margin-bottom: 30px;
+  }
+}
+
+.p-t-l {
+  padding: 40px 0 0 40px;
+  @media (max-width: 800px) {
+    padding: 0;
+  }
+}
+.mt-0 {
+  margin-top: 0 !important;
+}
+.border-t {
+  border-top: 1px solid $grey;
+}
+.relative {
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 83.05%;
+    right: 0;
+    width: 76%;
+    height: 1px;
+    background-color: $grey;
+    z-index: 11;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 60.4%;
+    right: 0;
+    width: 76%;
+    height: 1px;
+    background-color: $grey;
+    z-index: 11;
+  }
+  @media (max-width: 1440px) {
+    position: static;
+    &::after,
+    &::before {
+      content: none;
+    }
+  }
+}
+* {
+  scroll-behavior: smooth;
+
+  &::-webkit-scrollbar {
+    width: 10px;
+    transition: 0.4s ease-in-out;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background: #fff;
+    transition: 0.4s ease-in-out;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: $bg-red;
+    border-radius: 20px;
+    transition: 0.4s ease-in-out;
+  }
+
+  /* Handle on hover */
+  &::-webkit-scrollbar-thumb:hover {
+    background: $bg-red;
+    transition: 0.4s ease-in-out;
+  }
+}

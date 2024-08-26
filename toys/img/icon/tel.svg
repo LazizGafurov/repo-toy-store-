@@ -1,0 +1,16 @@
+<svg width="45.000000" height="45.000000" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip1_1168">
+			<rect id="Phone Call Favorite 1" rx="-0.500000" width="23.000000" height="23.000000" transform="translate(10.500000 11.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="Phone Call Favorite 1" rx="-0.500000" width="23.000000" height="23.000000" transform="translate(10.500000 11.500000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip1_1168)">
+		<path id="Vector" d="M28.12 25.62C30.31 27.81 31.57 28.25 28.79 31.03C28.44 31.31 26.23 34.68 18.45 26.9C10.68 19.13 14.04 16.91 14.32 16.57C17.11 13.78 17.54 15.05 19.74 17.24C22.01 19.52 17.63 20.58 21.2 24.16C24.78 27.73 25.84 23.34 28.12 25.62Z" stroke="#10142D" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round"/>
+		<path id="Vector" d="M25.56 14.09C26.19 13.89 26.88 14.01 27.4 14.4C27.93 14.01 28.62 13.89 29.25 14.09C30.44 14.48 30.87 15.78 30.5 16.92C29.94 18.72 27.4 20.11 27.4 20.11C27.4 20.11 24.89 18.74 24.3 16.92C23.94 15.78 24.37 14.48 25.56 14.09Z" stroke="#10142D" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round"/>
+	</g>
+	<path id="Vector" d="M0 22.49C0 5.62 5.62 0 22.5 0C39.37 0 45 5.62 45 22.49C45 39.37 39.37 44.99 22.5 44.99C5.62 44.99 0 39.37 0 22.49ZM5.98 39.01Q1.5 34.53 1.5 22.49Q1.5 10.46 5.98 5.98Q10.46 1.5 22.5 1.5Q34.53 1.5 39.01 5.98Q43.5 10.46 43.5 22.49Q43.5 34.53 39.01 39.01Q34.53 43.49 22.5 43.49Q10.46 43.49 5.98 39.01Z" fill="#E1E1E1" fill-opacity="1.000000" fill-rule="evenodd"/>
+</svg>
